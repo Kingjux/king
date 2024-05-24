@@ -15,3 +15,15 @@
 - ***THEN DEPLOY THE REPO AND BOOM 💥***
 - ***DON'T FORGOT TO STAR THE REPO***
 
+═══════════════════════════════════════════════════════════
+# ꒒ꏂ꓄'ꇙ ꍌꄲ ꋊꄲꅐ 
+
+<hi>[𝐨𝐧𝐫𝐞𝐧𝐝𝐞𝐫](https://onrender.com)</hi>
+
+             
+▄▀▄ █▀▀▄
+█░█ █▐█▀
+░▀░ ▀░▀▀
+
+
+<h2>[𝐡𝐞𝐫𝐨𝐤𝐮](https://heroku.com)</h2>
