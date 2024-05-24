@@ -171,6 +171,31 @@
     }
 }
   </style>
+  <script>
+    window.onload = function() {
+      const audio = new Audio('disconnect.mp3');
+      const playButton = document.getElementById('play-btn');
+      const stopButton = document.getElementById('stop-btn');
+
+      playButton.addEventListener('click', () => {
+        audio.play();
+      });
+
+      stopButton.addEventListener('click', () => {
+        audio.pause();
+        audio.currentTime = 0;
+      });
+    };
+
+    document.addEventListener('contextmenu', event => event.preventDefault()); // Disable right-click context menu
+    document.onkeydown = function (e) { // Disable copy, cut, and paste
+      if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85)) {
+        return false;
+      } else {
+        return true;
+      }
+    };
+  </script>
 </head>
 <body>
 
