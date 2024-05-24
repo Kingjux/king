@@ -1,6 +1,6 @@
 {
     "description": "qr",
-    "main": "./index.js",
+    "main": "./Venocyber-Tech.js",
   "engines" : { 
     "npm" : ">=9.7.2",
     "node" : ">=20.0.0"
