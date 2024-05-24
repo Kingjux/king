@@ -171,31 +171,6 @@
     }
 }
   </style>
-  <script>
-    window.onload = function() {
-      const audio = new Audio('jchrist.mp3');
-      const playButton = document.getElementById('play-btn');
-      const stopButton = document.getElementById('stop-btn');
-
-      playButton.addEventListener('click', () => {
-        audio.play();
-      });
-
-      stopButton.addEventListener('click', () => {
-        audio.pause();
-        audio.currentTime = 0;
-      });
-    };
-
-    document.addEventListener('contextmenu', event => event.preventDefault()); // Disable right-click context menu
-    document.onkeydown = function (e) { // Disable copy, cut, and paste
-      if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85)) {
-        return false;
-      } else {
-        return true;
-      }
-    };
-  </script>
 </head>
 <body>
 
@@ -223,18 +198,14 @@
   <button onclick="window.open(`/qr`)" class="btn">qr code</button>
   <button onclick="window.open(`/pair`)" class="btn">pair code</button>
   <button onclick="window.open(`https://github.com/kingjux/Venocyber-md`)" class="btn">github</button>
-  <button onclick="window.open(`https://github.com/kingjux/Los-Rios-md`)" class="btn">github bot 2</button>
+  <button onclick="window.open(`https://github.com/kingjux/Los-Rios-md`)" class="btn">github 2</button>
   </center>
-  
-<div class="audio-controls">
-    <button id="play-btn" class="hacker-button">Play</button>
-    <button id="stop-btn" class="hacker-button">Stop</button>
-</div>
 
   <div class="copyright">
+    <center>
     <p>&copy; VENOCYBER 2024</p>
     <p>designed by <b>venocyber tech</b> for you my fans</p>
-    <p>The song belongs to <b>Lil Nas jchrist</b> I didn't mean to do wrong it is dedicated to my special fans thank you for always being with me.</p>
+    </center>
+    
   </div>
-</body>
 </html>
