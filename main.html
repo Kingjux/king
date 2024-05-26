@@ -169,6 +169,50 @@
         transform: translateX(-1083px);
 
     }
+  .whatsapp-btn-container {
+    position: fixed;
+    left: 30px;
+    opacity: 0;
+    bottom: -50px;
+    padding: 24px;
+    animation: fade-up 1000ms forwards;
+    animation-delay: 1000ms;
+}
+
+@keyframes fade-up {
+    100% {
+        bottom: 24px;
+        opacity: 1;
+    }
+}
+
+.telegram-btn-container .telegram-btn {
+    font-size: 48px;
+    color: #0000FF;
+    display: inline-block;
+    transition: all 400ms;
+}
+
+.telegram-btn-container .telegram-btn:hover {
+    transform: scale(1.2);
+}
+
+.telegram-btn-container span {
+    position: absolute;
+    top: 0;
+    right: 4px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #00FFFF;
+    transform: rotateZ(20deg) translateX(10px);
+    opacity: 0;
+    transition: all 400ms;
+}
+
+.telegram-btn-container .telegram-btn:hover + span {
+    transform: rotateZ(0deg) translateX(0px);
+    opacity: 1;
+}
 }
   </style>
 </head>
