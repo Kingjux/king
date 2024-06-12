@@ -61,6 +61,9 @@ router.get('/', async (req, res) => {
 				   let VENOCYBER_MD_TEXT = `
 *_Qr Code By Venocyber Tech_*
 *_Made With 🤍_*
+*_Remember to remove VENOCYBER-MD;;; part and leave eyjubl...._*
+*_follow our channel and share it https://whatsapp.com/channel/0029VagzM5RGk1Fq9b6BCO0q_*
+*keep using WhatsApp bots from Venocyber_*
 	
 _Don't Forget To Give Star To My Repo_`
 	 await Qr_Code_By_Venocyber_Tech.sendMessage(Qr_Code_By_Venocyber_Tech.user.id,{text:VENOCYBER_MD_TEXT},{quoted:session})
